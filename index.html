@@ -1,0 +1,43 @@
+<p>⭐ 레벨 : <span id="level">1</span></p>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지꿍이 다마고치</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>💖 지꿍이 다마고치</h1>
+
+<img id="character" src="baby.png">
+
+<div id="equip"></div>
+
+<p id="speech">안녕! 나는 지꿍이야 ❤️</p>
+
+<button onclick="talk()">대화하기</button>
+
+
+<div class="stats">
+    <p>❤️ 애정도 : <span id="love">50</span></p>
+    <p>😊 기분 : <span id="mood">50</span></p>
+    <p>🍰 배고픔 : <span id="hunger">50</span></p>
+    <p>💎 하트코인 : <span id="coin">0</span></p>
+    ⭐ 경험치 : <span id="exp">0</span>/100
+</div>
+
+<button onclick="feed()">간식주기</button>
+<button onclick="gift()">선물하기</button>
+<button onclick="date()">데이트 가기</button>
+<button onclick="sleep()">😴 잠자기</button>
+<button onclick="shop()">상점</button>
+
+<h3>📖 추억 앨범</h3>
+<ul id="memoryList"></ul>
+<ul id="album"></ul>
+<script src="game.js"></script>
+
+</body>
+</html>

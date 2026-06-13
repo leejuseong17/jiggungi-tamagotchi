@@ -1,0 +1,39 @@
+body{
+    text-align:center;
+    background:#ffe6f2;
+    font-family:sans-serif;
+}
+
+#character{
+    font-size:120px;
+    margin:30px;
+}
+
+#speech{
+    font-size:24px;
+}.stats{
+    background:white;
+    width:250px;
+    margin:auto;
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+button{
+    padding:10px 15px;
+    margin:5px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+#character{
+    width:200px;
+    display:block;
+    margin:auto;
+}
+#equip{
+    font-size:40px;
+    margin-top:10px;
+}
