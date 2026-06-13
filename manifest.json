@@ -1,0 +1,15 @@
+{
+  "name": "지꿍이 키우기",
+  "short_name": "지꿍이",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffd9ec",
+  "theme_color": "#ffd9ec",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
